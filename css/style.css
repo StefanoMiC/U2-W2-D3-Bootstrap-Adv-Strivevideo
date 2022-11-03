@@ -1,0 +1,68 @@
+body {
+  background-color: #0f171e;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+.bg-dark-gradient {
+  background-color: #0f171e;
+  background-image: -webkit-linear-gradient(top, #1b2530, rgba(27, 37, 48, 0.85));
+  background-image: -o-linear-gradient(top, #1b2530 0, rgba(27, 37, 48, 0.85) 100%);
+  background-image: linear-gradient(180deg, #1b2530 0, rgba(27, 37, 48, 0.85));
+  background-repeat: repeat-x;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link {
+  font-weight: 700;
+  border-bottom: 1px solid white;
+}
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar .dropdown button {
+  color: rgba(242, 244, 246, 0.9);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 0;
+  margin: 8px;
+}
+
+.navbar .dropdown button span {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 56px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.navbar .dropdown button:hover {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.carousel-indicators li {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  filter: drop-shadow(1px 3px 6px rgb(0 0 0 / 0.65));
+}
+
+.section-title {
+  display: flex;
+  column-gap: 8px;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.section-title h3 {
+  font-size: 19px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.prime-badge {
+  position: absolute;
+  left: 0.25rem;
+  top: 0;
+}
